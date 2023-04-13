@@ -8,19 +8,19 @@ India is renowned for its vast array of restaurants and hotel resorts offering a
 
 # Methods Used
 
-Descriptive Statistics
-Data Visualization
-Machine Learning -Supervised-Learning -Unsupervised-Learning
-
+    • Descriptive Statistics
+    • Data Visualization
+    • Machine Learning -Supervised-Learning -Unsupervised-Learning
+    
 # Tech Stack
 
-Python
-Pandas
-Numpy
-Matplotlib
-Seaborn
-Scikit-learn
-NLP
+    • Python
+    • Pandas
+    • Numpy
+    • Matplotlib
+    • Seaborn
+    • Scikit-learn
+    • NLP
 
 # About the Data 
 
@@ -30,11 +30,11 @@ The second file, "Zomato Restaurant names and Metadata," provides details such a
 
 # Steps involved
 
-Exploratory Data Analysis - Performed exploratory data analysis and text preprocessing
-Data Cleaning - We have to drop the entire feature as there are 50% null values.
-Feature Selection - For sentiment analysis, we have used rating and reviews features. - For clustering we got cost, cuisine and timing of the restaurant as the features to build the model.
-Model building - For sentiment analysis, developed different models like:- Multinomial NB, Logistic regression, Random forest classifier - For clustering the restaurants we have used the k-means and hirerchical clustering
-
+    • Exploratory Data Analysis - Performed exploratory data analysis and text preprocessing
+    • Data Cleaning - We have to drop the entire feature as there are 50% null values.
+    • Feature Selection - For sentiment analysis, we have used rating and reviews features. - For clustering we got cost, cuisine and timing of the restaurant as the features to build the model.
+    • Model building - For sentiment analysis, developed different models like:- Multinomial NB, Logistic regression, Random forest classifier - For clustering the restaurants we have used the k-means and hirerchical clustering
+    
 # Sentiment Analysis
 
 To gain insights into the proportion of positive and negative reviews, various visualizations were created such as plotting the distribution of ratings, displaying the top 10 and bottom 10 restaurants based on their average rating, and examining the cost summary of the restaurants. The dataset was pre-processed by removing emojis and punctuations, and only using adjectives and verbs to reduce dimensionality. The TF-IDF vectorizer was employed to transform the dataset, and sentiment analysis was performed using the TextBlob() library, which resulted in a root mean square error (RMSE) score of 0.88. Additionally, word clouds were generated to represent positive and negative phrases.
